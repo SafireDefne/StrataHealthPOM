@@ -1,0 +1,54 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 40, Failures: 5, Errors: 0, Skipped: 30, Time elapsed: 55.275 s <<< FAILURE! - in TestSuite
+aboutPageSetup(com.stratahealth.tests.AboutCompanyPageTest)  Time elapsed: 0.589 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <span class="elementor-button-text"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QG3FBTF', ip: '192.168.0.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 35132, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e21fa7aa-ae72-4b1c-9ad4-a05a395bc050
+	at com.stratahealth.tests.AboutCompanyPageTest.aboutPageSetup(AboutCompanyPageTest.java:12)
+
+ourCustomersPageSetup(com.stratahealth.tests.OurCustomersPageTest)  Time elapsed: 0.256 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <span class="elementor-button-text"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QG3FBTF', ip: '192.168.0.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 35720, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0877f6c4-984b-48f8-aad4-59d2d70bee37
+	at com.stratahealth.tests.OurCustomersPageTest.ourCustomersPageSetup(OurCustomersPageTest.java:11)
+
+patientChoicePageSetup(com.stratahealth.tests.OurImpactPatientChoicePageTest)  Time elapsed: 12.571 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <span class="elementor-button-text"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QG3FBTF', ip: '192.168.0.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 27508, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 492edf5c-0de7-4bcb-9138-a8671047a568
+	at com.stratahealth.tests.OurImpactPatientChoicePageTest.patientChoicePageSetup(OurImpactPatientChoicePageTest.java:13)
+
+contactPageSetup(com.stratahealth.tests.ContactPageTest)  Time elapsed: 0.828 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <span class="elementor-button-text"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QG3FBTF', ip: '192.168.0.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 30092, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2824d8a6-f97b-484b-bf1a-07414646b94a
+	at com.stratahealth.tests.ContactPageTest.contactPageSetup(ContactPageTest.java:14)
+
+aboutNewsPageSetup(com.stratahealth.tests.AboutNewsPageTest)  Time elapsed: 11.112 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <span class="elementor-button-text"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QG3FBTF', ip: '192.168.0.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23772, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6af9bd28-ae8a-4069-a386-284a9d01a8dd
+	at com.stratahealth.tests.AboutNewsPageTest.aboutNewsPageSetup(AboutNewsPageTest.java:14)
+

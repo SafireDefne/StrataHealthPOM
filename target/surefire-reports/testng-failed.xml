@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [StrataHealth regression test suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.stratahealth.testlisteners.ExtentReportListener"/>
+    <listener class-name="com.stratahealth.testlisteners.AllureReportListener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="about company page test(failed)" verbose="0">
+    <classes>
+      <class name="com.stratahealth.tests.AboutCompanyPageTest">
+        <methods>
+          <include name="verifyGetCompanyPageTitleTest"/>
+          <include name="verifyGetCompanyPageNameTest"/>
+          <include name="aboutPageSetup"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.stratahealth.tests.AboutCompanyPageTest -->
+    </classes>
+  </test> <!-- about company page test(failed) -->
+  <test thread-count="5" parallel="tests" name="our customers page test(failed)" verbose="0">
+    <classes>
+      <class name="com.stratahealth.tests.OurCustomersPageTest">
+        <methods>
+          <include name="verifyOurCustomersPageTest"/>
+          <include name="ourCustomersPageSetup"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.stratahealth.tests.OurCustomersPageTest -->
+    </classes>
+  </test> <!-- our customers page test(failed) -->
+  <test thread-count="5" parallel="tests" name="patient choice page test(failed)" verbose="0">
+    <classes>
+      <class name="com.stratahealth.tests.OurImpactPatientChoicePageTest">
+        <methods>
+          <include name="verifyPatientChoicePageTest"/>
+          <include name="patientChoicePageSetup"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.stratahealth.tests.OurImpactPatientChoicePageTest -->
+    </classes>
+  </test> <!-- patient choice page test(failed) -->
+  <test thread-count="5" parallel="tests" name="contact page test(failed)" verbose="0">
+    <classes>
+      <class name="com.stratahealth.tests.ContactPageTest">
+        <methods>
+          <include name="fillContactFormTest"/>
+          <include name="verifyAddressPresentTest"/>
+          <include name="validateContactPageTitleTest"/>
+          <include name="contactPageSetup"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.stratahealth.tests.ContactPageTest -->
+    </classes>
+  </test> <!-- contact page test(failed) -->
+  <test thread-count="5" parallel="tests" name="about news page test(failed)" verbose="0">
+    <classes>
+      <class name="com.stratahealth.tests.AboutNewsPageTest">
+        <methods>
+          <include name="verifySearchFunctionTest"/>
+          <include name="verifySearchFieldTest"/>
+          <include name="verifyNextBtnTest"/>
+          <include name="aboutNewsPageSetup"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.stratahealth.tests.AboutNewsPageTest -->
+    </classes>
+  </test> <!-- about news page test(failed) -->
+</suite> <!-- Failed suite [StrataHealth regression test suite] -->

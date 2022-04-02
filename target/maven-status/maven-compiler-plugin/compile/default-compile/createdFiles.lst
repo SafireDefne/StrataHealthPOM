@@ -1,0 +1,16 @@
+com\stratahealth\pages\OurImpactPatientChoicePage.class
+com\stratahealth\testlisteners\AllureReportListener.class
+com\stratahealth\util\JavaScriptUtil.class
+com\stratahealth\util\Constants.class
+com\stratahealth\base\BasePage.class
+com\stratahealth\pages\ContactPage.class
+com\stratahealth\util\ExcelUtil.class
+com\stratahealth\base\BaseTest.class
+com\stratahealth\pages\OurCustomersPage.class
+com\stratahealth\util\OptionsManager.class
+com\stratahealth\pages\OurImpactSiloedSystemsPage.class
+com\stratahealth\pages\AboutCompanyPage.class
+com\stratahealth\util\ElementUtil.class
+com\stratahealth\pages\HomePage.class
+com\stratahealth\testlisteners\ExtentReportListener.class
+com\stratahealth\pages\AboutNewsPage.class

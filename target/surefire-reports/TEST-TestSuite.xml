@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="55.275" tests="40" errors="0" skipped="30" failures="5">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Denver"/>
+    <property name="maven.conf" value="C:\Program Files\Apache Software Foundation\apache-maven-3.8.4/conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.3\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Program Files\Apache Software Foundation\apache-maven-3.8.4"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\menzi"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.3+12-LTS"/>
+    <property name="user.name" value="menzi"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\menzi\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.3"/>
+    <property name="user.dir" value="C:\Users\menzi\Desktop\StrataHealthFrameworks\StrataHealthHybridFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\menzi\Desktop\StrataHealthFrameworks\StrataHealthHybridFramework"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.3\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\bin;%JAVA_HOME\bin;C:\Program Files\Java\jdk-11.0.3\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\menzi\scoop\shims;C:\Users\menzi\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.3+12-LTS"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\lib\jansi-native"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="aboutPageSetup" classname="com.stratahealth.tests.AboutCompanyPageTest" time="0.589">
+    <failure message="Element &lt;span class=&quot;elementor-button-text&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QG3FBTF&apos;, ip: &apos;192.168.0.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 35132, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e21fa7aa-ae72-4b1c-9ad4-a05a395bc050" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+Element <span class="elementor-button-text"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QG3FBTF', ip: '192.168.0.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 35132, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e21fa7aa-ae72-4b1c-9ad4-a05a395bc050
+	at com.stratahealth.tests.AboutCompanyPageTest.aboutPageSetup(AboutCompanyPageTest.java:12)
+]]></failure>
+    <system-out><![CDATA[...
+... TestNG 7.5 by Cédric Beust (cedric@beust.com)
+...
+
+Test Suite started!
+Test Suite started!
+I am in onStart method our customers page test
+I am in onStart method home page test
+Test Suite started!
+I am in onStart method about company page test
+Test Suite started!
+I am in onStart method contact page test
+Test Suite started!
+I am in onStart method about news page test
+verifyHomePageTest started!
+I am in onTestStart method verifyHomePageTest start
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1648787419296	geckodriver	INFO	Listening on 127.0.0.1:47367
+1648787419297	geckodriver	INFO	Listening on 127.0.0.1:27220
+1648787419300	geckodriver	INFO	Listening on 127.0.0.1:47327
+1641648787419306	geckodriver	INFO	Listening on 127.0.0.1:47524
+8787419306	geckodriver	INFO	Listening on 127.0.0.1:37757
+11664148787420101	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menzi\\AppData\\Local\\Temp\\rust_mozprofilegVl1cD"
+648787420101	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menzi\\AppData\\Local\\Temp\\rust_mozprofilekqXpei"
+87187420101	mozrunner::ru648787420101	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Unner	INFO	Running command: "C:\\Program Fsers\\menzi\\AppData\\Local\\Temp\\rust_mozprofileWfASqc"
+1648787420101	mozrunner::runiles\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menzi\\AppData\\Local\\Temp\\rust_mozprofiledzamZk"
+ner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menzi\\AppData\\Local\\Temp\\rust_mozprofileAdHgvx"
+1648787420547	Marionette	INFO	Marionette enabled
+1648787420587	Marionette	INFO	Marionette enabled
+1648787420618	Marionette	INFO	Marionette enabled
+1648787420674	Marionette	INFO	Marionette enabled
+1648787420696	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\menzi\\AppData\\Local\\Temp\\rust_mozprofiledzamZk\\search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\menzi\\AppData\\Local\\Temp\\rust_mozprofilegVl1cD\\search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\menzi\\AppData\\Local\\Temp\\rust_mozprofileWfASqc\\search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\menzi\\AppData\\Local\\Temp\\rust_mozprofilekqXpei\\search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\menzi\\AppData\\Local\\Temp\\rust_mozprofileAdHgvx\\search.json.mozlz4", (void 0)))
+1648787423726	Marionette	INFO	Listening on port 58029
+1648787423804	Marionette	INFO	Listening on port 58031
+1648787423921	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Mar 31, 2022 10:30:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1648787424018	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Mar 31, 2022 10:30:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1648787424062	Marionette	INFO	Listening on port 58030
+1648787424118	Marionette	INFO	Listening on port 58033
+1648787424194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648787424333	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648787424358	Marionette	INFO	Listening on port 58032
+Mar 31, 2022 10:30:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 31, 2022 10:30:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1648787424700	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Mar 31, 2022 10:30:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1648787436463	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+]]></system-err>
+  </testcase>
+  <testcase name="aboutPageSetup" classname="com.stratahealth.tests.AboutCompanyPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyGetCompanyPageNameTest" classname="com.stratahealth.tests.AboutCompanyPageTest" time="0">
+    <skipped message="Element &lt;span class=&quot;elementor-button-text&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QG3FBTF&apos;, ip: &apos;192.168.0.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 35132, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e21fa7aa-ae72-4b1c-9ad4-a05a395bc050"/>
+    <system-out><![CDATA[verifyGetCompanyPageNameTest started!
+I am in onTestStart method verifyGetCompanyPageNameTest start
+I am in onTestSkipped method verifyGetCompanyPageNameTest skipped
+verifyGetCompanyPageNameTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.stratahealth.tests.AboutCompanyPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.stratahealth.tests.AboutCompanyPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.stratahealth.tests.AboutCompanyPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyGetCompanyPageTitleTest" classname="com.stratahealth.tests.AboutCompanyPageTest" time="0">
+    <skipped message="Element &lt;span class=&quot;elementor-button-text&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QG3FBTF&apos;, ip: &apos;192.168.0.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 35132, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e21fa7aa-ae72-4b1c-9ad4-a05a395bc050"/>
+    <system-out><![CDATA[verifyGetCompanyPageTitleTest started!
+I am in onTestStart method verifyGetCompanyPageTitleTest start
+I am in onTestSkipped method verifyGetCompanyPageTitleTest skipped
+verifyGetCompanyPageTitleTest skipped!
+]]></system-out>
+    <system-err><![CDATA[1648787437828	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+]]></system-err>
+  </testcase>
+  <testcase name="ourCustomersPageSetup" classname="com.stratahealth.tests.OurCustomersPageTest" time="0.256">
+    <failure message="Element &lt;span class=&quot;elementor-button-text&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QG3FBTF&apos;, ip: &apos;192.168.0.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 35720, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 0877f6c4-984b-48f8-aad4-59d2d70bee37" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+Element <span class="elementor-button-text"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QG3FBTF', ip: '192.168.0.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 35720, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0877f6c4-984b-48f8-aad4-59d2d70bee37
+	at com.stratahealth.tests.OurCustomersPageTest.ourCustomersPageSetup(OurCustomersPageTest.java:11)
+]]></failure>
+    <system-out><![CDATA[I am in onFinish method about company page test
+Test Suite is ending!
+Test Suite started!
+I am in onStart method patient choice page test
+verifyContactPageNameTest started!
+I am in onTestStart method verifyContactPageNameTest start
+]]></system-out>
+    <system-err><![CDATA[1648787438776	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1648787439231	geckodriver	INFO	Listening on 127.0.0.1:13923
+1648787439683	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menzi\\AppData\\Local\\Temp\\rust_mozprofileSyGbaL"
+1648787439789	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContactPageNameTest" classname="com.stratahealth.tests.ContactPageTest" time="0.1"/>
+  <testcase name="verifyOurCustomersPageTest" classname="com.stratahealth.tests.OurCustomersPageTest" time="0">
+    <skipped message="Element &lt;span class=&quot;elementor-button-text&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QG3FBTF&apos;, ip: &apos;192.168.0.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 35720, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 0877f6c4-984b-48f8-aad4-59d2d70bee37"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.stratahealth.tests.OurCustomersPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyNewsPageTitleTest" classname="com.stratahealth.tests.AboutNewsPageTest" time="0.013"/>
+  <testcase name="patientChoicePageSetup" classname="com.stratahealth.tests.OurImpactPatientChoicePageTest" time="12.571">
+    <failure message="Element &lt;span class=&quot;elementor-button-text&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QG3FBTF&apos;, ip: &apos;192.168.0.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 27508, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 492edf5c-0de7-4bcb-9138-a8671047a568" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+Element <span class="elementor-button-text"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QG3FBTF', ip: '192.168.0.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 27508, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 492edf5c-0de7-4bcb-9138-a8671047a568
+	at com.stratahealth.tests.OurImpactPatientChoicePageTest.patientChoicePageSetup(OurImpactPatientChoicePageTest.java:13)
+]]></failure>
+    <system-err><![CDATA[1648787441250	Marionette	INFO	Stopped listening on port 58033
+1648787441657	Marionette	INFO	Marionette enabled
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+1648787442385	geckodriver	INFO	Listening on 127.0.0.1:19857
+1648787442446	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menzi\\AppData\\Local\\Temp\\rust_mozprofilebXw0c4"
+1648787443246	Marionette	INFO	Marionette enabled
+1648787443295	geckodriver	INFO	Listening on 127.0.0.1:15970
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\menzi\\AppData\\Local\\Temp\\rust_mozprofileSyGbaL\\search.json.mozlz4", (void 0)))
+1648787443876	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menzi\\AppData\\Local\\Temp\\rust_mozprofileMbasSX"
+1648787444584	Marionette	INFO	Listening on port 58598
+1648787444641	Marionette	INFO	Marionette enabled
+1648787445008	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Mar 31, 2022 10:30:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\menzi\\AppData\\Local\\Temp\\rust_mozprofile3Mp6o0\\search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\menzi\\AppData\\Local\\Temp\\rust_mozprofilebXw0c4\\search.json.mozlz4", (void 0)))
+1648787446253	Marionette	INFO	Listening on port 58627
+1648787446837	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Mar 31, 2022 10:30:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1648787447280	Marionette	INFO	Listening on port 58650
+1648787447358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Mar 31, 2022 10:30:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\menzi\\AppData\\Local\\Temp\\rust_mozprofileMbasSX\\search.json.mozlz4", (void 0)))
+1648787449431	Marionette	INFO	Listening on port 58667
+1648787449826	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Mar 31, 2022 10:30:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1648787451059	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1648787453853	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1648787454830	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1648787455307	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+]]></system-err>
+  </testcase>
+  <testcase name="verifyPatientChoicePageTest" classname="com.stratahealth.tests.OurImpactPatientChoicePageTest" time="0">
+    <skipped message="Element &lt;span class=&quot;elementor-button-text&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QG3FBTF&apos;, ip: &apos;192.168.0.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 27508, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 492edf5c-0de7-4bcb-9138-a8671047a568"/>
+    <system-out><![CDATA[verifyPatientChoicePageTest started!
+I am in onTestStart method verifyPatientChoicePageTest start
+I am in onTestSkipped method verifyPatientChoicePageTest skipped
+verifyPatientChoicePageTest skipped!
+]]></system-out>
+    <system-err><![CDATA[1648787455779	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+]]></system-err>
+  </testcase>
+  <testcase name="tearDown" classname="com.stratahealth.tests.OurImpactPatientChoicePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="contactPageSetup" classname="com.stratahealth.tests.ContactPageTest" time="0.828">
+    <failure message="Element &lt;span class=&quot;elementor-button-text&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QG3FBTF&apos;, ip: &apos;192.168.0.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 30092, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 2824d8a6-f97b-484b-bf1a-07414646b94a" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+Element <span class="elementor-button-text"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QG3FBTF', ip: '192.168.0.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 30092, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2824d8a6-f97b-484b-bf1a-07414646b94a
+	at com.stratahealth.tests.ContactPageTest.contactPageSetup(ContactPageTest.java:14)
+]]></failure>
+    <system-out><![CDATA[I am in onFinish method patient choice page test
+Test Suite is ending!
+]]></system-out>
+  </testcase>
+  <testcase name="contactPageSetup" classname="com.stratahealth.tests.ContactPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="contactPageSetup" classname="com.stratahealth.tests.ContactPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateContactPageTitleTest" classname="com.stratahealth.tests.ContactPageTest" time="0">
+    <skipped message="Element &lt;span class=&quot;elementor-button-text&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QG3FBTF&apos;, ip: &apos;192.168.0.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 30092, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 2824d8a6-f97b-484b-bf1a-07414646b94a"/>
+    <system-out><![CDATA[validateContactPageTitleTest started!
+I am in onTestStart method validateContactPageTitleTest start
+I am in onTestSkipped method validateContactPageTitleTest skipped
+validateContactPageTitleTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.stratahealth.tests.ContactPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.stratahealth.tests.ContactPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.stratahealth.tests.ContactPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.stratahealth.tests.ContactPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.stratahealth.tests.ContactPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[siloedSystemsPageTest started!
+I am in onTestStart method siloedSystemsPageTest start
+]]></system-out>
+  </testcase>
+  <testcase name="verifyAddressPresentTest" classname="com.stratahealth.tests.ContactPageTest" time="0">
+    <skipped message="Element &lt;span class=&quot;elementor-button-text&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QG3FBTF&apos;, ip: &apos;192.168.0.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 30092, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 2824d8a6-f97b-484b-bf1a-07414646b94a"/>
+    <system-out><![CDATA[verifyAddressPresentTest started!
+I am in onTestStart method verifyAddressPresentTest start
+I am in onTestSkipped method verifyAddressPresentTest skipped
+verifyAddressPresentTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="fillContactFormTest" classname="com.stratahealth.tests.ContactPageTest" time="0">
+    <skipped message="Element &lt;span class=&quot;elementor-button-text&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QG3FBTF&apos;, ip: &apos;192.168.0.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 30092, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 2824d8a6-f97b-484b-bf1a-07414646b94a"/>
+    <system-out><![CDATA[fillContactFormTest started!
+I am in onTestStart method fillContactFormTest start
+I am in onTestSkipped method fillContactFormTest skipped
+fillContactFormTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="siloedSystemsPageTest" classname="com.stratahealth.tests.OurImpactSiloedSystemsPageTest" time="0.504"/>
+  <testcase name="verifyNewsPageNameTest" classname="com.stratahealth.tests.AboutNewsPageTest" time="0.236"/>
+  <testcase name="verifyHomePageTest" classname="com.stratahealth.tests.HomePageTest" time="3.124"/>
+  <testcase name="aboutNewsPageSetup" classname="com.stratahealth.tests.AboutNewsPageTest" time="11.112">
+    <failure message="Element &lt;span class=&quot;elementor-button-text&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QG3FBTF&apos;, ip: &apos;192.168.0.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23772, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6af9bd28-ae8a-4069-a386-284a9d01a8dd" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+Element <span class="elementor-button-text"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QG3FBTF', ip: '192.168.0.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23772, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6af9bd28-ae8a-4069-a386-284a9d01a8dd
+	at com.stratahealth.tests.AboutNewsPageTest.aboutNewsPageSetup(AboutNewsPageTest.java:14)
+]]></failure>
+    <system-out><![CDATA[I am in onFinish method home page test
+Test Suite is ending!
+]]></system-out>
+    <system-err><![CDATA[1648787463355	Marionette	INFO	Stopped listening on port 58032
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PWindowGlobal::Msg_UpdateDocumentHasLoaded) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_RemoveDynEntriesFromActiveSessionHistoryEntry) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PWindowGlobal::Msg_AccumulatePageUseCounters) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_SynchronizeLayoutHistoryState) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitWindowContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PBrowserBridge::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PBrowserBridge::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\menzi\\AppData\\Local\\Temp\\rust_mozprofileWIEu3i\\search.json.mozlz4", (void 0)))
+1648787465957	Marionette	INFO	Listening on port 59060
+1648787466121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Mar 31, 2022 10:31:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="aboutNewsPageSetup" classname="com.stratahealth.tests.AboutNewsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="aboutNewsPageSetup" classname="com.stratahealth.tests.AboutNewsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifySearchFieldTest" classname="com.stratahealth.tests.AboutNewsPageTest" time="0">
+    <skipped message="Element &lt;span class=&quot;elementor-button-text&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QG3FBTF&apos;, ip: &apos;192.168.0.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23772, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6af9bd28-ae8a-4069-a386-284a9d01a8dd"/>
+    <system-out><![CDATA[verifySearchFieldTest started!
+I am in onTestStart method verifySearchFieldTest start
+I am in onTestSkipped method verifySearchFieldTest skipped
+verifySearchFieldTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.stratahealth.tests.AboutNewsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.stratahealth.tests.AboutNewsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.stratahealth.tests.AboutNewsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.stratahealth.tests.AboutNewsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.stratahealth.tests.AboutNewsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifySearchFunctionTest" classname="com.stratahealth.tests.AboutNewsPageTest" time="0">
+    <skipped message="Element &lt;span class=&quot;elementor-button-text&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QG3FBTF&apos;, ip: &apos;192.168.0.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23772, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6af9bd28-ae8a-4069-a386-284a9d01a8dd"/>
+    <system-out><![CDATA[verifySearchFunctionTest started!
+I am in onTestStart method verifySearchFunctionTest start
+I am in onTestSkipped method verifySearchFunctionTest skipped
+verifySearchFunctionTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="verifyNextBtnTest" classname="com.stratahealth.tests.AboutNewsPageTest" time="0">
+    <skipped message="Element &lt;span class=&quot;elementor-button-text&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QG3FBTF&apos;, ip: &apos;192.168.0.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220322144853, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23772, moz:profile: C:\Users\menzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6af9bd28-ae8a-4069-a386-284a9d01a8dd"/>
+    <system-out><![CDATA[verifyNextBtnTest started!
+I am in onTestStart method verifyNextBtnTest start
+I am in onTestSkipped method verifyNextBtnTest skipped
+verifyNextBtnTest skipped!
+]]></system-out>
+  </testcase>
+</testsuite>
